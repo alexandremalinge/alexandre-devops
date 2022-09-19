@@ -21,7 +21,7 @@ jobs:
     - name: Run Install RunPhpCS
       run: |
         wget -O phpcs https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
-        ls -la
+        chmod +x ./phpcs
         ./phpcs --standard=PSR12 ./
 
 
