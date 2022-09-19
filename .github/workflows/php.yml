@@ -39,6 +39,8 @@ jobs:
     #   run: composer run-script test
     
     
-    - name: php-codesniffer
-      uses: pipeline-components/php-codesniffer@v0.12.3
+
+      
+    - name: action-php-codesniffer
+      uses: tinovyatkin/action-php-codesniffer@v1
 
